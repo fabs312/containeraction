@@ -1,15 +1,14 @@
-name: 'my firt container action'
-description: 'fabslabs'
-author 'fabslua'
+name: 'my first container action'
+description: 'A cloud guru'
+author: 'Chad Crowell'
 inputs:
-   myInput:
-     descritption: 'greeting to use'
-     required: true
-     default: 'Awesome guy'
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Guru'
 outputs:
   myOutput:
     description: 'total memory'
 runs:
-  using:'docker'
-  image:'Dockerfile'
-      
+  using: 'docker'
+  image: 'Dockerfile'
