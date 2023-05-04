@@ -1,5 +1,5 @@
 name: 'my firt container action'
-description 'fabslabs'
+description: 'fabslabs'
 author 'fabslua'
 inputs:
    myInput:
